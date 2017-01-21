@@ -28,30 +28,30 @@
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.0.1</version>
 		</dependency>
-
-	
-  <dependency>
-     <groupId>com.oracle.driver</groupId>
-     <artifactId>ojdbc</artifactId>
-     <version>1.4</version>
-</dependency>
 	</dependencies>
-	
-	
 
-  
-<pluginRepositories>
-    <pluginRepository>
-      <id>maven.oracle.com</id>
-      <name>oracle-maven-repo</name>
-      <url>https://maven.oracle.com</url>
-      <layout>default</layout>
-      <releases>
-        <enabled>true</enabled>
-        <updatePolicy>always</updatePolicy>
-      </releases>
-    </pluginRepository>
-  </pluginRepositories>
+
+
+	<repositories>
+		<repository>
+			<id>maven.oracle.com</id>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<url>https://maven.oracle.com</url>
+			<layout>default</layout>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>maven.oracle.com</id>
+			<url>https://maven.oracle.com</url>
+		</pluginRepository>
+	</pluginRepositories>
+
 	<build>
 		<plugins>
 			<plugin>
