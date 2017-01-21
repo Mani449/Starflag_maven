@@ -110,7 +110,7 @@ public class StarFlagServlet extends HttpServlet {
 				{
 					request.setAttribute("balance", amount);
 					request.setAttribute("message", "Updated message: Balance after " + request.getParameter("submit") + ":");
-				}else{request.setAttribute("balance", availableBalance);request.setAttribute("message", "Cannot withdraw more than ");}
+				}else{request.setAttribute("balance", availableBalance);request.setAttribute("message", "updated Cannot withdraw more than ");}
 
 				request.getRequestDispatcher("homepage.jsp").forward(request, response);
 			} catch (Exception e) {
