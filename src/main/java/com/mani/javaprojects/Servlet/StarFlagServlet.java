@@ -27,6 +27,7 @@ public class StarFlagServlet extends HttpServlet {
 	 */
 	public StarFlagServlet() {
 		// TODO Auto-generated constructor stub
+		System.out.println("Default constructor called now");
 	}
 
 	/**
