@@ -13,7 +13,7 @@
 	<input type=hidden name="flow_controller" value="Login">
 	<div id="header">
 		<h1>
-			<a href="index.html">StarFlag Bank</a>
+			<a href="index.html">Mango Bank</a>
 		</h1>
 		<ul id="navigation">
 			<li class="current"><a href="homepage.jsp">Home</a></li>
