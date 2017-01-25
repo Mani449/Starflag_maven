@@ -13,7 +13,7 @@
 <body>
 	<div id="header">
 		<h1>
-			<a href="#">StarFlag Bank</span></a>
+			<a href="#">Mango Bank</span></a>
 		</h1>
 
 	</div>
